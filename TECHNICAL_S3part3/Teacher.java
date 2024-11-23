@@ -1,4 +1,4 @@
-public class Teacher {
+public class Teacher extends Person{
     private double salary;
 
     public Teacher (){
@@ -7,7 +7,7 @@ public class Teacher {
 
     public void setSalary(double salary) {
         this.salary = salary;
-    }
+    } 
 
     public double getsalary(){
         return this.salary;
